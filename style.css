@@ -1,0 +1,52 @@
+body {
+  background: #ef1ac8;
+  margin: 4%;
+}
+
+h1 {
+  color: #4d0099;
+  font-size: 300%;
+}
+
+header {
+  text-align: center;
+}
+
+.nav-link {
+  color: #ffffff
+}
+
+nav {
+  font-variant: small-caps;
+  font-size: 150%;
+  font-family: Arial, "Times New Roman", serif;
+}
+
+section {
+  display: inline-block; /*makes the sections show next to each other*/
+  width: 30%;/*says how much space they will take up, don't forget to account for padding, margin, and borders!*/
+  float: left; /*adjusts where the sections start, evens them out, don't forget to stop floating the footer so it appears at the bottom of the page*/
+  margin-right: 2%; /*separates the touching columns*/
+}
+
+h2 {
+  color: #00ffff;
+  background: #4d0099;
+  font-size: 150%
+}
+
+details {
+  font-style: oblique;
+}
+
+summary {
+  font-style: normal;
+}
+
+footer {
+  clear: both; /*stops the floating given to the sections so that the footer will be below them*/
+}
+
+img {
+  width: 75px;
+}
